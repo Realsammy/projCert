@@ -5,7 +5,7 @@ FROM devopsedu/webapp
 WORKDIR /var/www/html
 
 # Copy code to the Apache web server document root
-COPY . .
+COPY . 
 
 # Set the ServerName in Apache configuration
 #RUN echo "ServerName 44.217.5.12" >> /etc/apache2/apache2.conf
